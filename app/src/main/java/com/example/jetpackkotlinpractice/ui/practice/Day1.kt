@@ -26,6 +26,9 @@ fun Day1Screen(modifier: Modifier) {
         Button(onClick = { count++}) {
             Text("Count : $count")
         }
+        Button(onClick = { count++}) {
+            Text("Count : $count")
+        }
 
 
     }
